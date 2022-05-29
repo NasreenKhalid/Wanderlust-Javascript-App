@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Wanderlust</title>
+  </head>
+  <body>
+    <header>
+      <div class="overlay">
+        <h1>Wanderlust</h1>
+        <p>Head over to your favorite destination now...</p>
+      </div>
+    </header>
+
+    <div class="container">
+      <form>
+        <input type="text" placeholder="Enter a venue" id="venue" />
+        <button type="submit" id="btn">Submit</button>
+      </form>
+
+      <div class="error">
+        <p>Error</p>
+      </div>
+
+      <div class="results">
+        <h2 style="text-align: center; margin-top: 10px">Weather Info</h2>
+        <div class="weather-info">
+          <!-- <h3>City: ${data.name}</h3>
+          <span>Country: ${data.sys.country}</span>
+          <h3>Temp Min: ${(data.main.temp_min-273.15).toFixed(2)}C</h3>
+          <h3>Temp Max: ${(data.main.temp_max-273.15).toFixed(2)}C</h3>
+          <h4>Weather: ${data.weather[0].main}</h4>
+          <h4>${new Date().toISOString().slice(0, 10)}</h4> -->
+        </div>
+        <h2 style="text-align: center; margin-top: 22px">Venues Info</h2>
+        <div class="venue-info">
+          <!-- <div class="card">
+            <h2>${elem.name}</h2>
+
+          </div> -->
+          <!-- <div class="card">
+            <h2>${elem.name}</h2>
+          </div>
+        
+          <div class="card">
+            <h2>${elem.name}</h2>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
